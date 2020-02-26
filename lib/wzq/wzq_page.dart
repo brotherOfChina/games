@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:games/widget/dialog.dart';
 import 'package:games/wzq/wzq_view.dart';
 
 class WuZiQi extends StatefulWidget {
@@ -122,6 +121,7 @@ class WuZiQiState extends State<WuZiQi> {
             ],
           ),
           Row(
+
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
               FlatButton(
